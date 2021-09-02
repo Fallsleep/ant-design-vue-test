@@ -1,0 +1,35 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "pre-build": "vue-tsc --noEmit && vite build --mode development",
+    "serve": "vite preview",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "ant-design-vue": "^2.2.6",
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.7",
+    "@types/node": "^15.12.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "autoprefixer": "^10.3.3",
+    "eslint": "^7.30.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "less": "^4.1.1",
+    "postcss": "^8.3.6",
+    "rollup": "^2.52.7",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.1",
+    "vite-plugin-components": "^0.13.2",
+    "vue-eslint-parser": "^7.10.0",
+    "vue-tsc": "^0.3.0"
+  }
+}
